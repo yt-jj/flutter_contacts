@@ -22,8 +22,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "lukasgit.contacts_service"
     compileSdkVersion 30
-
+    
     defaultConfig {
         minSdkVersion 16
         targetSdkVersion 30
